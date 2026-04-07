@@ -1,0 +1,1 @@
+full chưa chạy được
