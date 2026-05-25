@@ -32,7 +32,7 @@
             this.btninDS = new System.Windows.Forms.Button();
             this.txtMCH = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.crystalReportViewer1 = new CrystalDecisions.Windows.Forms.CrystalReportViewer();
+           // this.crystalReportViewer1 = new CrystalDecisions.Windows.Forms.CrystalReportViewer();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -81,21 +81,21 @@
             // 
             // crystalReportViewer1
             // 
-            this.crystalReportViewer1.ActiveViewIndex = -1;
-            this.crystalReportViewer1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.crystalReportViewer1.Cursor = System.Windows.Forms.Cursors.Default;
-            this.crystalReportViewer1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.crystalReportViewer1.Location = new System.Drawing.Point(0, 131);
-            this.crystalReportViewer1.Name = "crystalReportViewer1";
-            this.crystalReportViewer1.Size = new System.Drawing.Size(1084, 454);
-            this.crystalReportViewer1.TabIndex = 1;
+            //this.crystalReportViewer1.ActiveViewIndex = -1;
+            //this.crystalReportViewer1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            //this.crystalReportViewer1.Cursor = System.Windows.Forms.Cursors.Default;
+            //this.crystalReportViewer1.Dock = System.Windows.Forms.DockStyle.Fill;
+            //this.crystalReportViewer1.Location = new System.Drawing.Point(0, 131);
+            //this.crystalReportViewer1.Name = "crystalReportViewer1";
+            //this.crystalReportViewer1.Size = new System.Drawing.Size(1084, 454);
+            //this.crystalReportViewer1.TabIndex = 1;
             // 
             // frmHienThiDSSinhVienTheoChiNhanhS
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1084, 585);
-            this.Controls.Add(this.crystalReportViewer1);
+            //this.Controls.Add(this.crystalReportViewer1);
             this.Controls.Add(this.panel1);
             this.Name = "frmHienThiDSSinhVienTheoChiNhanhS";
             this.Text = "frmHienThiDSSinhVienTheoChiNhanh";
@@ -112,6 +112,6 @@
         private System.Windows.Forms.Button btninDS;
         private System.Windows.Forms.TextBox txtMCH;
         private System.Windows.Forms.Label label1;
-        private CrystalDecisions.Windows.Forms.CrystalReportViewer crystalReportViewer1;
+        // private CrystalDecisions.Windows.Forms.CrystalReportViewer crystalReportViewer1;
     }
 }
