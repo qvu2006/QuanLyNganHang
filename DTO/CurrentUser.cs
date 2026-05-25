@@ -13,7 +13,7 @@ namespace DTO
     }
     public static class SQLConn
     {
-        public static String StrConn = "Data Source=(localdb)\\MSSQLLocalDB;Initial Catalog=NganHang;Integrated Security=True;Encrypt=True";
+        public static String StrConn = "Data Source=(localdb)\\MSSQLLocalDB;Initial Catalog=NganHang;Integrated Security=True;TrustServerCertificate=True";
         public static SqlConnection conn = new SqlConnection(StrConn);
 
     }
